@@ -112,3 +112,18 @@ input[type=submit]{
 .forgot p{
     padding-right: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .board{
+        width: 85%  !important;
+    }
+    .board__footer span:first-child{
+        text-align: center;
+        padding-right: 3px;
+    }
+
+    .board__footer span:nth-child(2){
+        text-align: center;
+    }
+
+}
