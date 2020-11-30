@@ -1,4 +1,6 @@
-
+body{
+    background-image: radial-gradient(circle, #dff0d8, #dbf6ee, #e5f9fd, #f5fbff, #ffffff)
+}
 .tab__group{
     padding:3rem 2rem;
 
