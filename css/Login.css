@@ -1,0 +1,114 @@
+.container{
+    background-color: #88edcf;
+    min-height: 100vh;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    position: relative;
+    width: 35%;
+    max-width: 480px;
+    background: #fff;
+    padding: 5vh 0 0;
+    margin: 2% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)
+}
+
+.board__item{
+    padding:0.5rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 15px 0;
+    min-width: 80%;
+}
+
+h2{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+.board__input{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #eee;
+    background: #eee;
+    font-size: 1.2rem;
+    padding: .6rem;
+    box-sizing: border-box;
+
+}
+
+
+.board__input:focus{
+    outline: none;
+    border: 1px solid #88edcf;
+}
+
+input[type=submit]{
+    padding:10px;
+    background-color:#88edcf ;
+    color: white;
+}
+
+.board__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 2.5rem;
+    background:#eee;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: .9rem;
+    
+}
+
+.board__footer a{
+    color: black;
+}
+
+.board__footer span:first-child{
+    width: 65%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.board__footer span:nth-child(2){
+    width: 35%;
+    padding-left: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.forgot{
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+.forgot p{
+    padding-right: 2rem;
+}
